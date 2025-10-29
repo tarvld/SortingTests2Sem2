@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sorts">
+      <UniqueIdentifier>{80c896b9-2b5b-4f6a-b22b-9daff7042b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{ccefb556-16a3-4c5d-8731-8076390c8462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorts\Исходные файлы">
+      <UniqueIdentifier>{1de7a64f-9e57-453f-b506-c3d7e73ec176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Исходные файлы">
+      <UniqueIdentifier>{d0f83b5f-4208-40ef-9329-c1b278051b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorts\Файлы заголовков">
+      <UniqueIdentifier>{fd518e63-20fe-49d2-83a9-b255d0cf7777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Файлы заголовков">
+      <UniqueIdentifier>{67167a6f-51d5-423a-ab9b-c864bf89cda8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Sorts\BinaryInsertionSort.cpp">
+      <Filter>Sorts\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sorts\Func.cpp">
+      <Filter>Sorts\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sorts\ShakerSort.cpp">
+      <Filter>Sorts\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tests\Test_main.cpp">
+      <Filter>Tests\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tests\BinaryInsetionSortTest.cpp">
+      <Filter>Tests\Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tests\ShakerSortTest.cpp">
+      <Filter>Tests\Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Sorts\BinaryInsertionSort.h">
+      <Filter>Sorts\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sorts\Func.h">
+      <Filter>Sorts\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sorts\ShakerSort.h">
+      <Filter>Sorts\Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Tests\catch.hpp">
+      <Filter>Tests\Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
